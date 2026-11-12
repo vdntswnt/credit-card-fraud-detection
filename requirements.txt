@@ -1,0 +1,17 @@
+# Tested with Python 3.12. Versions are pinned because the saved model (joblib) must be loaded
+# with the same scikit-learn / xgboost it was trained with.
+numpy==2.5.4
+pandas==3.0.6
+scikit-learn==1.9.1
+scipy==1.18.1
+xgboost==3.4.1
+imbalanced-learn==0.14.2
+shap==0.54.1
+joblib==1.6.0
+matplotlib==3.11.2
+seaborn==0.13.2
+streamlit==1.67.0
+# only needed to re-run the notebook:
+jupyter
+nbconvert==7.17.2
+ipykernel==7.4.0
